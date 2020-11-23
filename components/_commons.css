@@ -1,0 +1,40 @@
+body {
+  font-family: "FuturaRegular";
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-family: "FuturaBold";
+}
+
+b {
+  font-family: "Exo2Bold";
+  font-size: 38px;
+  line-height: 46px;
+  color: #454547;
+}
+
+h2 {
+  font-family: "FuturaBold";
+  font-size: 48px;
+  line-height: 62px;
+  color: #212529;
+}
+
+h3 {
+  font-family: "FuturaBold";
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 23px;
+  font-family: "FuturaBold";
+  color: #ffffff;
+}

@@ -1,0 +1,30 @@
+.main {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.about {
+  display: -webkit-box;
+  padding-top: 120px;
+  column-gap: 104px;
+  &__foto {
+    width: 671px;
+    height: 522px;
+  }
+  &__text {
+    max-width: 805px;
+    text-align: justify;
+    &-description {
+      font-size: 18px;
+      line-height: 28px;
+      color: #434040;
+      padding-top: 30px;
+    }
+    &-employess {
+      display: flex;
+      column-gap: 25px;
+      align-items: center;
+      padding-top: 70px;
+    }
+  }
+}

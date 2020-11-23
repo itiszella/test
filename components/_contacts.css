@@ -1,0 +1,134 @@
+.contacts {
+  background: linear-gradient(180deg, #27214a 0%, rgba(118, 110, 162, 0) 100%), #27214a;
+  box-shadow: 0px 0px 15px rgba(67, 64, 64, 0.25);
+  display: flex;
+  padding: 85px 170px 78px 170px;
+  position: relative;
+  column-gap: 142px;
+}
+
+.contacts__communication {
+  padding-left: 66px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 107px;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.contacts__communication-title {
+  margin-bottom: 40px;
+}
+
+.contacts__communication-phone {
+  font-size: 24px;
+  line-height: 31px;
+  color: #434040;
+}
+
+.contacts__communication-mail {
+  padding: 20px 0px 20px 0px;
+  font-size: 24px;
+  line-height: 31px;
+  color: #434040;
+}
+
+.contacts__communication-adress {
+  font-size: 24px;
+  line-height: 31px;
+  color: #434040;
+}
+
+.contacts__call {
+  color: white;
+}
+
+.contacts-stong {
+  font-size: 24px;
+  line-height: 31px;
+  color: #434040;
+}
+
+input {
+  background: linear-gradient(180deg, #27214a 0%, rgba(118, 110, 162, 0) 100%), #27214a;
+}
+
+.consultation {
+  display: flex;
+  flex-direction: column;
+}
+
+.consultation__title {
+  margin-bottom: 30px;
+}
+
+.consultation__input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.consultation__submit {
+  width: 232px;
+  height: 45px;
+  padding: 10px 39px 10px 40px;
+  font-family: "FuturaBold";
+  font-size: 18px;
+  line-height: 23px;
+  color: #434040;
+  background: #ffffff;
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  -moz-appearance: none;
+}
+
+input::placeholder {
+  font-family: "FuturaRegular";
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+label {
+  font-family: "FuturaRegular";
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 14px;
+}
+
+textarea {
+  margin-bottom: 36px;
+  border: 0.5px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  resize: none;
+  background: linear-gradient(180deg, #27214a 0%, rgba(118, 110, 162, 0) 100%), #27214a;
+  outline: none;
+  -moz-appearance: none;
+  font-family: "FuturaRegular";
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  width: 457px;
+  height: 92px;
+}
+
+.consultation-logo {
+  width: 573px;
+  height: 471px;
+  float: right;
+  position: absolute;
+  z-index: 9999;
+  left: 1438px;
+  bottom: 50px;
+  overflow: hidden;
+}
